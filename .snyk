@@ -1,0 +1,84 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - appium-android-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-base-driver > morgan > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > morgan > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > morgan > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-base-driver > morgan > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-chromedriver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > extract-zip > debug > ms:
+        patched: '2017-05-22T23:52:14.060Z'
