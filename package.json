@@ -41,15 +41,17 @@
     "source-map-support": "^0.3.2",
     "teen_process": "^1.3.1",
     "utf7": "^1.0.0",
-    "yargs": "^3.29.0"
+    "yargs": "^3.29.0",
+    "snyk": "^1.192.3"
   },
   "scripts": {
     "install": "node ./bin/install.js",
-    "prepublish": "./node_modules/.bin/gulp prepublish",
+    "prepublish": "npm run snyk-protect; ./node_modules/.bin/gulp prepublish",
     "test": "./node_modules/.bin/gulp once",
     "watch": "./node_modules/.bin/gulp",
     "lint": "gulp eslint",
-    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
+    "snyk-protect": "snyk protect"
   },
   "pre-commit": [
     "precommit-msg",
@@ -74,5 +76,6 @@
     "unzip": "^0.1.11",
     "sample-apps": "2.0.4",
     "xmldom": "^0.1.19"
-  }
+  },
+  "snyk": true
 }
