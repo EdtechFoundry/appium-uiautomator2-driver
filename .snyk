@@ -1,0 +1,272 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > shared-preferences-builder > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-base-driver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-adb > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > asyncbox > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-adb > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > archiver > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > teen_process > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-base-driver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > archiver > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > archiver > zip-stream > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > archiver > async > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-08T08:46:14.092Z'
