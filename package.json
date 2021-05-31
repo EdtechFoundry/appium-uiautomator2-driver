@@ -28,8 +28,8 @@
   "dependencies": {
     "adbkit": "^2.4.1",
     "appium-adb": "^2.6.19",
-    "appium-android-driver": "^1.10.27",
-    "appium-base-driver": "^2.0.18",
+    "appium-android-driver": "^3.2.0",
+    "appium-base-driver": "^3.16.0",
     "appium-logger": "^2.1.0",
     "appium-support": "^2.0.9",
     "appium-uiautomator2-server": "^0.0.1",
